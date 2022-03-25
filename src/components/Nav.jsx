@@ -1,5 +1,6 @@
 import firebase from "firebase";
 import logo from "../logo192.png";
+import React from "react";
 
 function Nav(props) {
   return (

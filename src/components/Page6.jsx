@@ -1,3 +1,4 @@
+import React from "react";
 function Page6(props) {
   return (
     <>

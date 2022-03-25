@@ -1,6 +1,7 @@
+
 import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-
+import React from "react";
 function Page1() {
   const uiConfig = {
     signInFlow: "popup",
@@ -16,5 +17,6 @@ function Page1() {
     </section>
   );
 }
+
 
 export default Page1;
