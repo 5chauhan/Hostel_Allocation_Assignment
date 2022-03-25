@@ -6,7 +6,6 @@ import Booking from "./components/Booking";
 import Page1 from "./components/Page1";
 
 function App() {
-  // const firebase =firebase.apps[0];
   const [isSignedIn, setIsSignedIn] = useState(false);
   const [name, setName] = useState("");
   const [dp, setDP] = useState("");
