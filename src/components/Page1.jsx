@@ -5,8 +5,10 @@ import React from "react";
 function Page1() {
   const uiConfig = {
     signInFlow: "popup",
-    signInSuccessUrl: "/hostelapp/",
-    signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID],
+    signInSuccessUrl: "/Hostel_Allocation_Assignment/",
+    signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+      firebase.auth.FacebookAuthProvider.PROVIDER_ID,],
+
   };
 
   return (
