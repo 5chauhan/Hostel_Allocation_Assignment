@@ -3,15 +3,18 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import firebase from "firebase";
 
-var firebaseConfig = {
-  apiKey: "AIzaSyBABgES2wVLgh03SIockiEjc-EjCus6Vf8",
-  authDomain: "hostelapp-f53b1.firebaseapp.com",
-  projectId: "hostelapp-f53b1",
-  storageBucket: "hostelapp-f53b1.appspot.com",
-  messagingSenderId: "177595369481",
-  appId: "1:177595369481:web:1266b6678394191a1ad0d8",
-  measurementId: "G-HJN4G35YX3"
+const firebaseConfig = {
+
+  apiKey: "AIzaSyBOg7EMQu8cXOhxNRBaugs3RxDibNmN4Ag",
+  authDomain: "hostel-allocation-assign-e3eb5.firebaseapp.com",
+  projectId: "hostel-allocation-assign-e3eb5",
+  storageBucket: "hostel-allocation-assign-e3eb5.appspot.com",
+  messagingSenderId: "658021567495",
+  appId: "1:658021567495:web:08aff38a817e14c593eea2",
+  measurementId: "G-DED637NFQM"
+
 };
+
 
 firebase.initializeApp(firebaseConfig);
 
