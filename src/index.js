@@ -9,9 +9,10 @@ var firebaseConfig = {
   projectId: "hostelapp-f53b1",
   storageBucket: "hostelapp-f53b1.appspot.com",
   messagingSenderId: "177595369481",
-  appId: "1:177595369481:web:21b1fcdaa4d0a4bb1ad0d8",
-  measurementId: "G-1E7XYQ0N51",
+  appId: "1:177595369481:web:1266b6678394191a1ad0d8",
+  measurementId: "G-HJN4G35YX3"
 };
+
 firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />, document.getElementById("root"));
