@@ -3,6 +3,7 @@
   margin: 2px;
   padding: 5px;
   border-radius: 20px;
+
  
 }
 
@@ -11,13 +12,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 60px;
   
 }
 
 header {
   margin: 0;
   width: 100vw;
+  font-weight: 200;
+  font-style: bold;
   height: 60px;
   background-color: white;
   display: flex;
@@ -25,24 +28,24 @@ header {
   position: fixed;
   top: 0;
   border-radius: 0;
-  border-bottom: 1px solid rgb(224, 217, 217);
+  border-bottom: 1px solid rgb(175, 156, 156);
   background-color: rgb(71, 100, 82);
 }
 
 header div {
   margin: 0;
   padding: 2px;
-  height: 45px;
+  height: 50px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 header img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   margin: 0;
   padding: 0;
 }
@@ -57,10 +60,13 @@ p {
 }
 
 section {
-  border: 2px solid black;
-  border-radius: 30px;
-  width: 700px;
-  height: 300px;
+  border: 2px solid rgb(224, 217, 217);
+  border-radius: 20px;
+  width: 650px;
+  height: 360px;
+  border-top: 30px;
+  background-color: rgb(69, 55, 94);
+
 }
 
 button {
@@ -78,6 +84,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .hostel button {
@@ -90,7 +97,7 @@ button {
 .rooms {
   display: flex;
   flex-direction: column;
-  border: 1px solid darkgray;
+  border: 1px solid rgb(107, 102, 102);
 }
 
 .rooms div {
@@ -101,17 +108,17 @@ button {
 .rooms button {
   height: 40px;
   width: 40px;
-  background-color: yellowgreen;
+  background-color: rgb(106, 126, 67);
 }
 
 .book {
-  background-color: blue;
+  background-color: rgb(40, 40, 77);
   color: white;
   width: 120px;
 }
 
 .modal {
-  background-color: lightskyblue;
+  background-color: rgb(95, 143, 173);
 }
 
 button:hover,
